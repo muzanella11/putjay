@@ -1,0 +1,165 @@
+/*
+ * Hi guys
+ * Author desain by enem :)
+ *
+ *
+ *
+ *
+ *
+ */
+ 
+ /*Ini Buat Font*/
+
+@font-face {
+font-family:'PutjayBold';
+src:url(../font/font/Quadranta-Bold.otf);
+}
+
+@font-face {
+font-family:'PutjayRegular';
+src:url(../font/font/Quadranta-Regular.otf);
+}
+/*------------------------------------------------------------*/
+
+ /************ FOR PUBLIC **********************/
+ .putjay_logo{
+	font-family:PutjayBold;
+	font-size:20px;
+ }
+ .normal_margin{
+    margin:0;
+ }
+ .normal_padding{
+    padding: 0;
+ }
+ .link_normal a{
+	text-decoration:none;
+ }
+ .link_signin,.link_signup{
+	color:#777;
+	font-weight:bold;
+	font-family:arial, sans serif;
+ }
+ .link_signin:hover,.link_signup:hover{
+	color:skyblue;
+ }
+ body{
+	padding-top:0;
+	padding-bottom:0;
+	min-height:0;
+ }
+ .separator_top{
+	margin-top:50px;
+ }
+ .box_title_page{
+	text-align:center; margin-top:8%; font-family:PutjayBold; font-size:50px;
+ }
+ /********************************************/
+ 
+ /********** FOR HEADER *********************/
+ .navbar{
+	border-bottom:0;
+ }
+ .margin_right_brand{
+	margin-right:3%;
+ }
+ .input_search{
+	width:280px;
+ }
+ .home_active{
+	background:#FF5050;
+ }
+ .home:hover{
+	background:#FF5050;
+ }
+ .category_active{
+	background:#FFFF66;
+ }
+ .category:hover{
+	background:#FFFF66;
+ }
+ .cart_active{
+	background:#FFFF66;
+	cursor:pointer;
+ }
+ .cart:hover{
+	background:#FFFF66;
+	cursor:pointer;
+ }
+ 
+ .about_active{
+	background:#99FF66;
+ }
+ .about:hover{
+	background:#99FF66;
+ }
+ .setting:hover{
+	background:#99FF66;
+	cursor:pointer;
+ }
+ 
+ .contact_active{
+	background:skyblue;
+ }
+ .contact:hover{
+	background:skyblue;
+ }
+ /*******************************************/
+ 
+ /************* HOME ***********************/
+ .box_link_promo{
+	background:#f6f6f6; border:2px dashed skyblue; padding:1%; text-align:right;
+ }
+ .box_link_promo:hover{
+	background:white;
+ }
+.search_result{
+    padding-left: 0;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.26);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.search_result li{
+    background: white;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.search_result li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+.search_result li a:hover{
+    background:rgba(0,0,0,0.08);
+}
+.search_result li.no_result{
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 600;
+}
+.search_result li.see_more_result{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+ /*****************************************/
+ 
+ /****** FOR MANUAL RESPONSIVE ***********/
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 500px) {
+  .box_search{
+	 padding-left:15px;
+	 padding-right:15px;
+  }
+  .input_search{
+	width:100%;
+  }
+}
+/****************************************/
